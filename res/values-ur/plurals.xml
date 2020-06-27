@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‏%d منٹ کے بعد فعال ہوگا</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‏%d منٹ بعد</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">‏ان چیٹس کا میڈیا حذف کریں</item>
+        <item quantity="one">‏اس چیٹ کا میڈیا حذف کریں</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‏%d روابط خارج ہو گئے</item>
+        <item quantity="one">‏%d رابطہ خارج ہو گیا</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">‏آپ کے پاس اپنی ادائیگیوں کے اکاؤنٹ اور سرگرمی کے بارے میں کئی اطلاعات ہیں۔</item>
+        <item quantity="one">‏آپ کے پاس اپنی ادائیگیوں کے اکاؤنٹ اور سرگرمی کے بارے میں ایک اطلاع ہے۔</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‏%d کوششیں باقی ہیں</item>
+        <item quantity="one">‏%d کوشش باقی ہے</item>
+    </plurals>
+    <plurals name="payments_message_bubble_status_label_desc_expiration">
+        <item quantity="other">‏میعاد %1$s میں ختم ہو رہی ہے</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">‏زیر التواء درخواستیں</item>
+        <item quantity="one">‏زیرالتواء درخواست</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_receiver">
+        <item quantity="other">‏آپ کے پاس اس درخواست کا جواب دینے کیلئے %1$s باقی ہیں</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_sender">
+        <item quantity="other">‏%1$s کے پاس آپ کی درخواست کا جواب دینے کیلئے %2$s باقی ہیں</item>
+    </plurals>
+</resources>

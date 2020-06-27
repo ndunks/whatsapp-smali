@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autodownload">
+        <item>@string/settings_autodownload_images</item>
+        <item>@string/settings_autodownload_audio</item>
+        <item>@string/settings_autodownload_videos</item>
+        <item>@string/settings_autodownload_documents</item>
+    </string-array>
+    <string-array name="autodownload_cellular_defaults">
+        <item>0</item>
+    </string-array>
+    <array name="autodownload_roaming_defaults" />
+    <string-array name="autodownload_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="autodownload_wifi_defaults">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="default_statuses">
+        <item>@string/status_default_available</item>
+        <item>@string/status_default_busy</item>
+        <item>@string/status_default_at_school</item>
+        <item>@string/status_default_at_movies</item>
+        <item>@string/status_default_at_work</item>
+        <item>@string/status_default_battery_die</item>
+        <item>@string/status_default_cannot_talk</item>
+        <item>@string/status_default_in_meeting</item>
+        <item>@string/status_default_at_gym</item>
+        <item>@string/status_default_sleeping</item>
+        <item>@string/status_default_urgent</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>@string/font_small</item>
+        <item>@string/font_medium</item>
+        <item>@string/font_large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="group_participant_name_colors">
+        <item>@color/group_olive</item>
+        <item>@color/group_light_purple</item>
+        <item>@color/group_orange</item>
+        <item>@color/group_blue</item>
+        <item>@color/group_sand</item>
+        <item>@color/group_navy</item>
+        <item>@color/group_pink</item>
+        <item>@color/group_army_green</item>
+        <item>@color/group_dark_purple</item>
+        <item>@color/group_brown</item>
+        <item>@color/group_watermelon</item>
+        <item>@color/group_green</item>
+        <item>@color/group_salmon</item>
+        <item>@color/group_iris</item>
+        <item>@color/group_jazzberry_jam</item>
+        <item>@color/group_sky_blue</item>
+        <item>@color/group_kenyan</item>
+        <item>@color/group_vermilion</item>
+        <item>@color/group_royal_purple</item>
+        <item>@color/group_ruddy</item>
+    </array>
+    <string-array name="led_color_values">
+        <item>000000</item>
+        <item>FFFFFF</item>
+        <item>FF0000</item>
+        <item>FFFF00</item>
+        <item>00FF00</item>
+        <item>00FFFF</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </string-array>
+    <integer-array name="mute_time_count">
+        <item>8</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="mute_time_unit">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
+    <integer-array name="mute_time_value">
+        <item>480</item>
+        <item>10080</item>
+        <item>525949</item>
+    </integer-array>
+    <integer-array name="night_solid_color_wallpaper_values">
+        <item>26</item>
+        <item>24</item>
+        <item>17</item>
+        <item>19</item>
+        <item>10</item>
+        <item>21</item>
+    </integer-array>
+    <string-array name="popup_mode">
+        <item>@string/popup_notification_mode_none</item>
+        <item>@string/popup_notification_mode_screen_on</item>
+        <item>@string/popup_notification_mode_screen_off</item>
+        <item>@string/popup_notification_mode_always</item>
+    </string-array>
+    <string-array name="popup_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <array name="solid_color_wallpaper_colors">
+        <item>#ff1d2326</item>
+        <item>#ff301e34</item>
+        <item>#ff922040</item>
+        <item>#ff644d52</item>
+        <item>#ff517e7e</item>
+        <item>#ff55626f</item>
+        <item>#ff35558a</item>
+        <item>#ff3190bb</item>
+        <item>#ff63bdcf</item>
+        <item>#ff66d2d5</item>
+        <item>#ffbbe4e5</item>
+        <item>#ffaed8c7</item>
+        <item>#ff7acba5</item>
+        <item>#fffeefa9</item>
+        <item>#fffffea2</item>
+        <item>#fffb4668</item>
+        <item>#fffd6769</item>
+        <item>#fffd9a9b</item>
+        <item>#ffdc6e4f</item>
+        <item>#fffed297</item>
+        <item>#ffe6e1b1</item>
+        <item>#ffd1dabe</item>
+        <item>#ffe7e8d2</item>
+        <item>#ffcbdaec</item>
+        <item>#ffd6d0f0</item>
+        <item>#ffcecece</item>
+        <item>#ffecf0f1</item>
+    </array>
+    <string-array name="vibrate_lengths">
+        <item>@string/vibrate_length_off</item>
+        <item>@string/vibrate_length_default</item>
+        <item>@string/vibrate_length_short</item>
+        <item>@string/vibrate_length_long</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

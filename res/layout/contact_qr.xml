@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.BidiToolbar android:id="@id/toolbar" style="@style/Toolbar.Neutral" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/contact_qr_tabs" android:background="@color/neutral_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/contact_qr_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.whatsapp.WaImageView android:id="@id/contact_qr_preview" android:background="@color/primary_surface" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+</FrameLayout>

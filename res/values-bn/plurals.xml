@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d মিনিট পর চালু হয়েছে</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d মিনিট পর</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">এই চ্যাটের মিডিয়া বাদ দিন</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d জন পরিচিতি বাদ দেওয়া হয়েছে</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">আপনার পেমেন্ট অ্যাকাউন্ট বা অ্যাক্টিভিটি সম্পর্কে কয়েকটি বিজ্ঞপ্তি রয়েছে।</item>
+        <item quantity="one">আপনার পেমেন্ট অ্যাকাউন্ট বা অ্যাক্টিভিটি সম্পর্কে একটি বিজ্ঞপ্তি রয়েছে।</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">আর %d বার চেষ্টা করতে পারবেন</item>
+    </plurals>
+    <plurals name="payments_message_bubble_status_label_desc_expiration">
+        <item quantity="other">‎%1$s-এর মধ্যে মেয়াদ শেষ হবে</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">বাকি থাকা অনুরোধ</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_receiver">
+        <item quantity="other">আপনাকে %1$s মধ্যে এই অনুরোধের উত্তর দিতে হবে।</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_sender">
+        <item quantity="other">‎%1$s কে %2$s মধ্যে আপনার অনুরোধের উত্তর দিতে হবে</item>
+    </plurals>
+</resources>

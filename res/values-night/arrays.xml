@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="group_participant_name_colors">
+        <item>@color/group_olive</item>
+        <item>@color/group_shadow_purple</item>
+        <item>@color/group_orange</item>
+        <item>@color/group_blue</item>
+        <item>@color/group_sand</item>
+        <item>@color/group_sapphire</item>
+        <item>@color/group_pink</item>
+        <item>@color/group_grass_green</item>
+        <item>@color/group_lenurple</item>
+        <item>@color/group_brown</item>
+        <item>@color/group_watermelon</item>
+        <item>@color/group_baby_green</item>
+        <item>@color/group_salmon</item>
+        <item>@color/group_liberty</item>
+        <item>@color/group_cranberry</item>
+        <item>@color/group_milky_blue</item>
+        <item>@color/group_brick_red</item>
+        <item>@color/group_bright_vermilion</item>
+        <item>@color/group_orchid</item>
+        <item>@color/group_coral</item>
+    </array>
+    <array name="solid_color_wallpaper_colors">
+        <item>#ff0c0e0f</item>
+        <item>#ff130c15</item>
+        <item>#ff3a0d1a</item>
+        <item>#ff281f21</item>
+        <item>#ff203232</item>
+        <item>#ff22272c</item>
+        <item>#ff152237</item>
+        <item>#ff143a4b</item>
+        <item>#ff1d535e</item>
+        <item>#ff1b6163</item>
+        <item>#ff2e7778</item>
+        <item>#ff336953</item>
+        <item>#ff255d43</item>
+        <item>#ff615001</item>
+        <item>#ff616000</item>
+        <item>#ff49020f</item>
+        <item>#ff510102</item>
+        <item>#ff5c0203</item>
+        <item>#ff642514</item>
+        <item>#ffa05d02</item>
+        <item>#ff7b7328</item>
+        <item>#ff5a683b</item>
+        <item>#ff72753c</item>
+        <item>#ff2f5481</item>
+        <item>#ff2c2063</item>
+        <item>#ff525252</item>
+        <item>#ff51686e</item>
+    </array>
+</resources>

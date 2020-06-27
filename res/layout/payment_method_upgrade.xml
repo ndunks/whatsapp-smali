@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/primary_surface" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.WaImageView android:layout_gravity="top" android:id="@id/upgrade_iv" android:layout_width="72.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_business_info" android:scaleType="center" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.whatsapp.WaTextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/wallet_detail_upgrade_title" android:singleLine="true" style="@style/ListItemTitle" />
+        <com.whatsapp.WaTextView android:textSize="14.0sp" android:id="@id/education" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/wallet_detail_upgrade_education" android:singleLine="false" app:fontFamily="sans-serif" />
+        <com.whatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/start" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FbPaySecondaryButton" />
+    </LinearLayout>
+</LinearLayout>

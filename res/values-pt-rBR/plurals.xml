@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Ativado após %d minutos</item>
+        <item quantity="one">Ativado após %d minuto</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Após %d minutos</item>
+        <item quantity="one">Após %d minuto</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Apagar os arquivos de mídia destas conversas</item>
+        <item quantity="one">Apagar os arquivos de mídia desta conversa</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d contatos excluídos</item>
+        <item quantity="one">‎%d contato excluído</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">Você tem várias notificações sobre sua conta de pagamentos ou suas atividades.</item>
+        <item quantity="one">Você tem uma notificação sobre sua conta de pagamentos ou suas atividades.</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d tentativas restantes</item>
+        <item quantity="one">‎%d tentativa restante</item>
+    </plurals>
+    <plurals name="payments_message_bubble_status_label_desc_expiration">
+        <item quantity="other">expira em %1$s</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">Solicitações pendentes</item>
+        <item quantity="one">Solicitação pendente</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_receiver">
+        <item quantity="other">Você tem %1$s para responder a essa solicitação</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_sender">
+        <item quantity="other">‎%1$s tem %2$s para responder à sua solicitação</item>
+    </plurals>
+</resources>

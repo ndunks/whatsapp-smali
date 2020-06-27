@@ -1,0 +1,14 @@
+.class public LX/1Tt;
+.super Ljava/lang/RuntimeException;
+.source ""
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 212947
+    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

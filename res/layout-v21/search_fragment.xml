@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/search_fragment" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.BidiToolbar android:layout_gravity="center_vertical" android:id="@id/toolbar" android:layout_height="55.0dip" style="@style/Toolbar.Neutral">
+        <com.whatsapp.search.views.TokenizedSearchInput android:id="@id/search_input_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.whatsapp.BidiToolbar>
+    <View android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_top" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/result_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.whatsapp.WaImageButton android:layout_gravity="center|right|top" android:id="@id/grid_list_toggle" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_emoji_solid" style="@style/WA.FAB" />
+    </FrameLayout>
+    <View android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_bottom" />
+</LinearLayout>

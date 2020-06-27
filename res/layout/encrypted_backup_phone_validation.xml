@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gdrive_drawable_padding_left" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/gdrive_enc_backup_content_right_margin">
+        <com.whatsapp.WaImageView android:id="@id/encrypted_backup_phone_validation_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/ic_wa_locked" app:tint="?settingsIconColor" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@id/encrypted_backup_enabled_phone_validation_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/encrypted_backup_enabled_phone_validation_description" style="?settingsSectionSubtitleText" />
+            <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/encrypted_backup_phone_validation_phone_label" style="@style/BackupSettingsLabelText" />
+            <include layout="@layout/country_and_phone_number" />
+            <com.whatsapp.components.Button android:layout_gravity="left" android:id="@id/encrypted_backup_phone_validation_action" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/encrypted_backup_phone_validation_action" style="@style/WA.Button" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

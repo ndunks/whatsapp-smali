@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.WaRoundCornerImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:radius="8.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center|top" android:id="@id/currency_symbol" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" />
+        <com.whatsapp.WaTextView android:textSize="34.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center|top" android:id="@id/balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" />
+    </LinearLayout>
+    <com.whatsapp.WaImageView android:layout_gravity="center|left|top" android:id="@id/logo" android:layout_width="60.0dip" android:layout_height="20.0dip" android:layout_margin="16.0dip" android:scaleType="centerCrop" />
+</merge>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d मिनिटांनी चालू केले जाईल</item>
+        <item quantity="one">‎%d मिनिटाने चालू केले जाईल</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d मिनिटांनी</item>
+        <item quantity="one">‎%d मिनिटाने</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">या गप्पांमधील मीडिया हटवा</item>
+        <item quantity="one">या गप्पामधील मीडिया हटवा</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d संपर्क वगळले</item>
+        <item quantity="one">‎%d संपर्क वगळला</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">तुमच्याकडे तुमचे पेमेंट खाते किंवा त्यातील अ‍ॅक्टिव्हिटीविषयी काही नोटिफिकेशन्स आहेत.</item>
+        <item quantity="one">तुमच्याकडे तुमचे पेमेंट खाते किंवा त्यातील अ‍ॅक्टिव्हिटीविषयी एक नोटिफिकेशन आहे.</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">अजून %d वेळा प्रयत्न करू शकता</item>
+    </plurals>
+    <plurals name="payments_message_bubble_status_label_desc_expiration">
+        <item quantity="other">‎%1$s मध्ये एक्स्पायर होईल</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">विनंत्या पेंडिंग आहेत</item>
+        <item quantity="one">विनंती पेंडिंग आहे</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_receiver">
+        <item quantity="other">या विनंतीला प्रतिसाद देण्यासाठी तुमच्याकडे %1$s आहेत.</item>
+        <item quantity="one">तुमच्याकडे या विनंतीला प्रतिसाद देण्यासाठी %1$s आहे.</item>
+    </plurals>
+    <plurals name="transaction_status_collect_success_sender">
+        <item quantity="other">‎%2$s कडे तुमच्या विनंतीला प्रतिसाद देण्यासाठी %1$s आहेत.</item>
+        <item quantity="one">‎%2$s कडे तुमच्या विनंतीला प्रतिसाद देण्यासाठी %1$s आहे.</item>
+    </plurals>
+</resources>
